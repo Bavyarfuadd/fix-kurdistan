@@ -1,0 +1,16 @@
+{
+  "name": "slemani-fix-ai",
+  "version": "1.0.0",
+  "description": "Citizens photograph municipal issues; AI triages them onto a live map and admin dashboard.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "better-sqlite3": "12.4.1",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
